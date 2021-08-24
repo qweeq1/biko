@@ -626,6 +626,7 @@ footer ul li a img {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
+  line-height: 1.5;
 }
 .main_blog_section .blog_wrap .blog_item .blog_item_footer {
   padding: 15px 30px;
@@ -660,6 +661,7 @@ footer ul li a img {
   font-size: 19px;
   font-weight: 400;
   text-align: left;
+  line-height: 1.5;
 }
 .blog_wrap .blog_item_main h3 {
   color: black;
@@ -3070,17 +3072,27 @@ footer ul li a img {
   font-weight: 400;
   text-align: left;
 }
-.privacy_rule_section .dot_list {
+
+.dot_list {
   padding-left: 25px;
   margin-bottom: 40px;
 }
-.privacy_rule_section .dot_list li {
+.dot_list li {
   line-height: 1.5;
   list-style: disc;
   color: black;
   font-size: 19px;
   font-weight: 400;
   text-align: left;
+  margin-bottom: 10px;
+}
+
+.for_beginners_blog_wrap .blog_item_main {
+  align-self: flex-start;
+}
+
+.for_beginners_blog_header h2 {
+  text-transform: none;
 }
 
 /*# sourceMappingURL=style.css.map */

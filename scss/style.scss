@@ -633,6 +633,7 @@ footer {
 
         p {
           @include font(16px, $align: left);
+          line-height: 1.5;
         }
       }
 
@@ -673,6 +674,7 @@ footer {
     p {
       margin-bottom: 30px;
       @include font($align: left);
+      line-height: 1.5;
     }
 
     h3 {
@@ -3293,15 +3295,27 @@ footer {
     }
   }
 
-  .dot_list{
-    padding-left: 25px;
-    margin-bottom: 40px;
-    li{
-      line-height: 1.5;
-      list-style: disc;
-      @include font(19px, $color: black,$align:left);
-    }
+
+}
+.dot_list{
+  padding-left: 25px;
+  margin-bottom: 40px;
+  li{
+    line-height: 1.5;
+    list-style: disc;
+    @include font(19px, $color: black,$align:left);
+    margin-bottom: 10px;
   }
+}
+.for_beginners_blog_wrap{
+  .blog_item_main{
+    align-self: flex-start;
+  }
+}
 
+.for_beginners_blog_header{
 
+  h2{
+    text-transform: none;
+  }
 }
