@@ -3285,18 +3285,22 @@ footer {
 .privacy_rule_section{
   padding-top: 10px;
 
-  .number_list{
-    padding-left: 25px;
-    margin-bottom: 40px;
-    li{
-      line-height: 1.5;
-      list-style: decimal;
-      @include font(19px, $color: black,$align:left);
-    }
-  }
+
 
 
 }
+
+
+.number_list{
+  padding-left: 25px;
+  margin-bottom: 40px;
+  li{
+    line-height: 1.5;
+    list-style: decimal;
+    @include font(19px, $color: black,$align:left);
+  }
+}
+
 .dot_list{
   padding-left: 25px;
   margin-bottom: 40px;
@@ -3318,4 +3322,7 @@ footer {
   h2{
     text-transform: none;
   }
+}
+.blog_wrap .blog_item_main .blog_item_main_img{
+  margin-top: 0;
 }

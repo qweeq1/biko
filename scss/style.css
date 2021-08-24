@@ -3060,11 +3060,12 @@ footer ul li a img {
 .privacy_rule_section {
   padding-top: 10px;
 }
-.privacy_rule_section .number_list {
+
+.number_list {
   padding-left: 25px;
   margin-bottom: 40px;
 }
-.privacy_rule_section .number_list li {
+.number_list li {
   line-height: 1.5;
   list-style: decimal;
   color: black;
@@ -3093,6 +3094,10 @@ footer ul li a img {
 
 .for_beginners_blog_header h2 {
   text-transform: none;
+}
+
+.blog_wrap .blog_item_main .blog_item_main_img {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
