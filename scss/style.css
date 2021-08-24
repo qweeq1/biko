@@ -3041,4 +3041,46 @@ footer ul li a img {
   color: #1565C0;
 }
 
+.privacy_header_section {
+  padding-bottom: 0;
+}
+.privacy_header_section .block_header {
+  margin-bottom: 10px;
+}
+.privacy_header_section .block_header p {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.privacy_rule_section {
+  padding-top: 10px;
+}
+.privacy_rule_section .number_list {
+  padding-left: 25px;
+  margin-bottom: 40px;
+}
+.privacy_rule_section .number_list li {
+  line-height: 1.5;
+  list-style: decimal;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+.privacy_rule_section .dot_list {
+  padding-left: 25px;
+  margin-bottom: 40px;
+}
+.privacy_rule_section .dot_list li {
+  line-height: 1.5;
+  list-style: disc;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+
 /*# sourceMappingURL=style.css.map */
