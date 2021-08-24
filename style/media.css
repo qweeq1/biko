@@ -1,0 +1,777 @@
+.sub :first-child::after{
+    width:6px;
+    height:6px;
+    position:absolute;
+    border-top-color:black;
+    transform:rotate(135deg);
+    border-top-width:1px;
+    border-right-color:black;
+    border-right-width:1px;
+    top:6px;
+    border-top-style:solid;
+    content:"";
+    right:-3px;
+    border-right-style:solid;
+}
+.burger.active,.burger{
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 95%;
+    }
+
+    .teaching_section .teaching_items_block .teaching_link_item {
+        margin: 0 5px;
+    }
+
+    .teaching_section .teaching_items_block .teaching_link_item .teaching_item .teaching_item_description {
+        padding: 30px;
+    }
+
+
+    .blog_wrap .blog_item_sidebar .for_beginners_button {
+        margin: 0;
+        padding: 0;
+    }
+
+    .blog_item_sidebar .sidebar_info, .blog_item_sidebar .sidebar_share {
+        margin: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .main_blog_section .blog_wrap {
+        justify-content: space-around;
+    }
+
+    .type_video .type_video_wrap {
+        flex-wrap: wrap;
+
+    }
+
+    .type_video .type_video_wrap .type_video_item {
+        margin-top: 40px;
+    }
+
+    .header_background_crypto_video {
+        background-size: inherit;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .how_started .step_count_wrap .step_count_item {
+        width: 80%;
+    }
+
+    .container_header {
+        position: relative;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .menu,.logo {
+align-self: flex-start;
+    }
+
+    .menu nav li {
+        display: block;
+        background: #fff;
+        padding: 15px 8px;
+        border-bottom-style: solid;
+        border-bottom-color: #c4c4c4;
+        border-bottom-width: 1px;
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        display: none;
+    }
+    .menu.active{
+        display: block;
+    }
+
+    .sub :after{
+        top: 21px;
+        right: 18px;
+    }
+
+    .menu nav li a{
+
+        padding: 0;
+
+    }
+    .menu nav li:last-child{
+        border-bottom: none;
+    }
+    .header{
+        position: relative;
+    }
+    .burger{
+        position: absolute;
+    }
+    .search{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .header_main_text h1 {
+        font-size: 26px;
+    }
+
+    .header_main_text .registration_button {
+        line-height: 1;
+        font-size: 17px;
+        border-radius: 22px;
+    }
+
+    .wrap_content_block {
+        display: block;
+    }
+
+    .about_section .wrap_content_block .left_side, .about_section .wrap_content_block .right_side {
+        width: 100%;
+    }
+
+    .teaching_section .teaching_items_block {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .teaching_section .teaching_items_block .teaching_link_item .teaching_item .teaching_item_image {
+        display: none;
+    }
+
+    .right_side iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .left_side, .right_side {
+        width: 100%;
+    }
+
+    .will_get_section, .best_work_section, .team_section, .teaching_section, .type_video, .header_background_crypto_video .blue_line, .main_blog_crypto_video {
+        padding: 30px 0;
+    }
+
+    .benefits_section .benefits_block {
+        display: block;
+    }
+
+    .benefits_section .benefits_block .benefits_block_item img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .benefits_section .benefits_block .benefits_block_item {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .benefits_section .benefits_block .benefits_block_item h3, .benefits_section .benefits_block .benefits_block_item p {
+        text-align: center;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    .team .benefits_block_item {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits_block_item .avatar_team {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .benefits_block_item .benefits_block_text h3, .benefits_block_item .benefits_block_text p {
+        text-align: center;
+    }
+
+    .discord_community .discord_community_item_wrap {
+        display: block;
+    }
+
+    .discord_community .discord_community_item_wrap .item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    footer ul li {
+        margin-bottom: 5px;
+    }
+
+    .main_blog_section .blog_wrap {
+        display: block;
+    }
+
+    .main_for_beginners .block_header h2 {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .blog_wrap .blog_item_main {
+        width: 100%;
+    }
+
+    .blog_wrap .blog_item_sidebar {
+        width: 80%;
+        margin: auto;
+    }
+
+    .blog_wrap .blog_item_sidebar img {
+        padding-left: 0;
+    }
+
+    .bottom_banner, .bottom_banner img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .social_list ul li a img {
+        width: 24px !important;
+    }
+
+    .blue_bottom_for_beginners .blue_line .wrap_content_block .right_side {
+        margin-top: 70px;
+    }
+
+    .blue_bottom_for_beginners .blue_line .wrap_content_block .right_side .description_list {
+        font-size: 23px;
+    }
+
+    footer .footer_wrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .main_blog_section .blog_wrap .blog_item {
+        width: 100%;
+    }
+
+    .main_blog_trading_ideas .block_header {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main_blog_trading_ideas .more_btn {
+        margin-top: 20px;
+    }
+
+    .crypto_ideas_section .block_header h2 {
+        text-align: center;
+    }
+
+    .type_video .type_video_wrap .type_video_item {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .type_video .type_video_wrap .type_video_item h2 {
+        left: 35%;
+        position: absolute;
+        top: 35%;
+    }
+
+    .type_video .type_video_wrap .soon .soon_msg {
+        transform: rotate(45deg) translateY(0) translateX(0);
+        position: absolute;
+        top: -10px;
+        right: -41px;
+        width: 150px;
+    }
+
+
+    .video_lessons_line p {
+        font-size: 17px;
+    }
+
+
+    .fx_header .container .left_side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fx_header .container {
+        flex-direction: column-reverse;
+    }
+
+    .fx_header .container .left_side .gift_block img {
+        width: 80%;
+    }
+
+    .what_clients .clients_get_list {
+        display: block;
+    }
+
+    .what_clients .clients_get_list ul {
+        margin-bottom: 30px;
+        margin-left: 35px;
+    }
+
+    .about_head_section {
+        background: none;
+    }
+
+    .about_head_section .blue_line .header_main_text {
+        display: block;
+    }
+
+    .about_head_section .blue_line .header_main_text h1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .about_head_section .blue_line .header_main_text p {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .we_do_section .item_wrap .item {
+        width: 100%;
+    }
+
+    .about_our_team .our_team {
+        display: block;
+    }
+
+    .about_our_team .our_team .item {
+        margin-bottom: 60px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about_our_team .our_team .item .avatar_item {
+        position: static;
+    }
+
+    .about_our_team .our_team .item .item_body {
+        margin-top: 10px;
+    }
+
+    .about_our_team .our_team .item .avatar_item img {
+        width: 40%;
+    }
+
+    .blue_bottom_line h2 {
+        font-size: 22px;
+    }
+
+    .button_green a {
+        font-size: 17px;
+    }
+
+    .testimonials_block_header h2 {
+        font-size: 26px;
+    }
+
+    .private_discord_section .block_header h2 {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .video_container .testimonials_video_item {
+        width: 100%;
+    }
+
+    .blue_line_testimonials .header_main_text h2 {
+        text-align: left;
+    }
+
+    .blue_line_testimonials .header_main_text p {
+        text-align: left;
+    }
+
+    .blue_line_testimonials .form_block .left_side {
+        display: none;
+    }
+
+    .blue_line_testimonials .form_block .right_side {
+        width: 100%;
+    }
+
+    .blue_line_testimonials .form_block .right_side form {
+        width: 100%;
+    }
+
+
+    .blog_item_main .advice .social_wrap {
+        display: block;
+    }
+
+    .blog_item_main .advice .social_wrap .social_information h3 {
+        text-align: center;
+    }
+
+    .blog_item_main .articles_form_block form input[type=submit] {
+        margin-bottom: 30px;
+    }
+
+    .blog_item_main .you_tube_video iframe {
+        height: 330px;
+    }
+
+    .blog_item_main .articles_form_block form .checkbox_block label {
+        display: inline;
+    }
+
+    .mentoring_header .head_section .mentoring_blue_line .header_main_text h1 {
+        font-size: 22px;
+    }
+
+    .mentoring_header .teaching_section .container .block_header h2 {
+        font-size: 22px;
+    }
+
+    .mentoring_header .teaching_section .container .personal_mentor_btn a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .learn_section .learn_item_wrap {
+        display: block;
+
+    }
+
+    .learn_section .learn_item_wrap .learn_item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .learn_section .learn_item_wrap .learn_item svg {
+        left: 44%;
+    }
+
+    .mentoring_program .benefits_mentoring_item {
+        display: block;
+    }
+
+    .mentoring_program .benefits_mentoring_item .mentoring_item, .mentoring_program .benefits_mentoring_item {
+        width: 100%;
+    }
+
+    .mentoring_private {
+        display: none;
+    }
+
+    .how_started .step_count_wrap .step_count_item {
+        display: block;
+        text-align: center;
+
+    }
+
+    .how_started .step_count_wrap .step_count_item p {
+        margin-top: 20px;
+    }
+
+    .choose_plan_section .plan_wrap .plan {
+        margin-bottom: 30px;
+    }
+
+    .trading_course_header .teaching_section .block_header h2 {
+        font-size: 22px;
+    }
+
+    .trading_course_header .block_video h2 {
+        font-size: 22px;
+    }
+
+    .course_button a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .person_header h2 {
+        font-size: 22px;
+    }
+
+    .person_header {
+        padding: 30px 0;
+    }
+
+    .person_header_section .person_header_wrap .person_header_item {
+        width: 50%;
+    }
+
+    .do_get_section .wrap_list {
+        flex-wrap: wrap;
+    }
+
+    .do_get_section .wrap_list .top-left, .leeds .leeds_wrap .left_side {
+        width: 100%;
+    }
+
+    .offer_section .container .offer_wrap, .begin_section .begin_wrap {
+        display: block;
+    }
+
+    .offer_section .container .offer_wrap .left_side, .begin_section .begin_wrap .left_side {
+        width: 100%;
+    }
+
+    .offer_section .container .offer_wrap .right_side {
+        width: auto;
+
+        text-align: center
+    }
+
+    .tariff_plans_section .container .block_header h2, .leeds .block_header h2, .leeds .leeds_wrap .left_side .block_header h2, .leeds .leeds_wrap .left_side .block_header h3 {
+        font-size: 22px;
+    }
+
+    .tariff_plans_section .container .tariff_plan_wrap, .leeds .leeds_wrap {
+        display: block;
+    }
+
+    .tariff_plans_section .container .tariff_plan_wrap .tariff_plan_item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .leeds .leeds_wrap .right_side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leeds .leeds_wrap .right_side img {
+        margin: 0;
+    }
+
+    .swing .wrap_swing {
+        display: block;
+    }
+
+    .swing .wrap_swing .left_side, .swing .wrap_swing .right_side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .swing .wrap_swing .left_side .block_header h2, .swing .wrap_swing .left_side .block_header h3 {
+        font-size: 22px;
+    }
+
+    .swing .wrap_swing .left_side ul li {
+        font-size: 18px;
+    }
+
+    .not_section .not_list {
+        justify-content: flex-start;
+    }
+
+    .not_section {
+        padding: 10px;
+    }
+
+    .not_section .not_list ul li {
+        font-size: 18px;
+    }
+
+    .not_section .not_list ul li:before {
+        width: 17px;
+        height: 17px;
+        top: 10px;
+    }
+
+    .not_section h3 {
+        font-size: 22px;
+    }
+
+    .do_get_section .wrap_list {
+        flex-direction: column-reverse;
+    }
+
+    .do_get_section .wrap_list .left_side {
+        width: 100%;
+    }
+
+    .scalping_header .teaching_section .scalping_header_wrap img {
+        display: none;
+    }
+
+    .scalping_header .teaching_section .scalping_header_wrap .introduce, .couple_section .three {
+        box-shadow: none;
+        padding: 10px;
+    }
+
+    .scalping_header .teaching_section .scalping_header_wrap .introduce .header_main_text h1 {
+        font-size: 22px;
+    }
+
+    .clients_say_section {
+        padding: 10px;
+    }
+
+    .clients_say_section .block_header h2 {
+        font-size: 22px;
+    }
+
+    .clients_say_section .img_block img {
+        width: 100%;
+    }
+
+    .no_more_block {
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .artem_program {
+        padding: 10px;
+    }
+
+    .no_more_block p {
+        font-size: 21px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .artem_program .two_things {
+        display: block;
+    }
+
+    .artem_program .two_things .two_things_item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .scalping_header_two .teaching_section .wrap_two {
+        padding: 20px 0;
+    }
+
+    .artem_program .block_header_begin h2 {
+        font-size: 22px;
+    }
+
+    .artem_program .block_header_begin p {
+        font-size: 17px;
+    }
+
+    .artem_program .block_header_begin ul li {
+        font-size: 17px;
+    }
+
+    .artem_program .block_header_begin ul li:before, .give_list ul li:before {
+        width: 15px;
+    }
+
+    .block_header h2, .couple_section .feel_free .wrap_four .header_main_text h2 {
+        font-size: 22px;
+    }
+
+    .give_list ul li {
+        font-size: 17px;
+    }
+
+    .couple_section .three {
+        max-width: 100%;
+    }
+
+    .couple_section .three .header_main_text h2 {
+        font-size: 20px;
+    }
+
+    .couple_section .feel_free .bonus_block {
+        display: block;
+
+    }
+
+    .couple_section .feel_free .bonus_block .bonus_item {
+        margin-bottom: 30px;
+    }
+
+    .couple_section .feel_free .bonus_description p {
+        font-size: 17px;
+    }
+
+    .success_should .success_should_wrap {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .success_should .success_should_wrap .left_side {
+        width: 100%;
+    }
+
+    .success_should .success_should_wrap .right_side img {
+        margin: 0;
+    }
+
+    .feedback_section .small_video {
+        display: block;
+    }
+
+    .feedback_section .small_video iframe {
+        width: 100%;
+    }
+
+    .feedback_section {
+        padding: 5px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 560px) {
+    .header_background_crypto_video .head_section .overlay {
+        display: none;
+    }
+
+    .learn_section .learn_item_wrap .learn_item svg {
+        left: 38%;
+    }
+
+    .how_started .step_count_wrap .step_count_item p {
+        width: auto;
+    }
+
+    .mentoring_program .benefits_mentoring_item {
+        display: block;
+        background-size: 30%;
+    }
+
+    .mentoring_program .benefits_mentoring_item .mentoring_item, .mentoring_program .benefits_mentoring_item .one {
+        background-size: 50px;
+        padding-left: 70px;
+    }
+
+    .person_header_section .person_header_wrap .person_header_item {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .type_video .type_video_wrap .type_video_item h2 {
+        left: 30%;
+    }
+}
